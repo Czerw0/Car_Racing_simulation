@@ -1,0 +1,25 @@
+import pygame
+
+pygame.init()
+
+#GAME
+WIDTH = 1200
+HEIGHT = 800
+SCREEN = pygame.display.set_mode((WIDTH, HEIGHT))
+
+#CAR
+MAX_SPEED = 8.0
+ACCELERATION = 0.35
+BRAKE = 0.3
+DRAG = 0.06
+MAX_STEER = 4.5
+
+#RGB COLURS
+ASPHALT = (112, 112, 112)  
+GREEN = (29, 153, 66)    
+SAND = (239, 228, 176)   
+OBSTACLES = (237, 28, 36)  
+WHITE = (255,255,255)
+CHECKPOINTS = (153,217,234)
+FINISH = (255, 255, 255)
+GOLD = (255, 215, 0)
